@@ -13,6 +13,7 @@ export const Header = () => {
       <Link to="/">
         <h1>My Show</h1>
       </Link>
+      <div className='back-container'>
       <div
         className="back-button"
         onClick={() => {
@@ -20,14 +21,17 @@ export const Header = () => {
         }}
       >
         Back
+        </div>
       </div>
       <Input
         setSearchResults={setSearchResults}
         isDropDown={isDropDown}
         setIsDropDown={setIsDropDown}
       />
-      <LogInButton />
-
+      <div className="log-container">
+        <LogInButton />
+      </div>
+    
       {isDropDown && (
         <div className="dropdown">
           <SearchingResult

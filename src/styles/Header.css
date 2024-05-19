@@ -1,6 +1,6 @@
 .header {
   width: 100vw;
-  height: 4rem;
+  height: 5rem;
   background-color: rgb(62, 62, 181);
   display: grid;
   grid-template-columns: 2fr 1fr 7fr 1fr;
@@ -14,19 +14,30 @@
   margin-left: 2rem;
   justify-self: start;
 }
+.header .back-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(62, 62, 181);
+  background-color: rgb(191, 191, 228);
+  border-radius: 4px;
+  width: 40%;
+  height: 2.5rem;
 
+}
 .header .back-button {
+
   cursor: pointer;
   justify-self: start;
 }
 
 .header input {
-  height: 2rem;
-  width: 50%;
-  background-color: rgb(135, 135, 224);
+  height: 3rem;
+  width: 80%;
+  background-color: rgb(191, 191, 228);
   outline: none;
   border: none;
-  justify-self: center;
 }
 
 .header .dropdown {
@@ -41,7 +52,6 @@
   background-color: rgb(189, 189, 247);
   border-radius: 10px;
   padding: 1rem;
-
   display: grid;
   grid-template-rows: repeat(auto, 4rem);
   justify-content: start;
@@ -53,6 +63,8 @@
   margin-right: 4rem;
   min-height: 150px;
   justify-content: space-between;
+  
+
 }
 
 .header .loginButton {
@@ -62,4 +74,17 @@
   justify-self: end;
   margin-right: 4rem;
   cursor: pointer;
+  text-decoration: none;
+}
+.header .log-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(62, 62, 181);;
+  background-color: rgb(191, 191, 228);
+  border-radius: 4px;
+  width: 70%;
+  height: 2.5rem;
+  
 }

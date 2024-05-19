@@ -11,6 +11,9 @@
     "install": "npm install react-router-dom && npm install node-fetch && npm install xml2js && npm run dev && npm i classnames"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.18",
     "node": "^20.13.1",
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",

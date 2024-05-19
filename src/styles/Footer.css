@@ -1,0 +1,40 @@
+
+.footer {
+    width: 100vw;
+    height: 6rem;
+    background-color: rgb(62, 62, 181);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    position: relative;
+  }
+ 
+  .company-info {
+   
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+  }
+  
+  select {
+    width: 50%;
+    height: 3rem;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    margin-left: 4rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 2rem;
+  }
+  
+ 
+  li {
+    margin-left: 20px;
+    font-family: 1rem;;
+  }
+  

@@ -1,0 +1,23 @@
+.scrolling-container {
+    width: 100vw;
+    height: 85vh;
+  }
+  
+  .scrolling-content {
+    width: 100vw;
+    height: 85vh;
+    background-size: cover;
+
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
