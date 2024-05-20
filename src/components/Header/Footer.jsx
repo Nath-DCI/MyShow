@@ -25,7 +25,7 @@ export const Footer = () => {
 
     const handleProviderChange = (event) => {
         const selectedProviderId = event.target.value;
-        if (selectedProviderId) {
+        if (selectedProviderId) {  
             window.location.href = `/provider/${selectedProviderId}`;
         }
     };
