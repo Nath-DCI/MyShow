@@ -19,7 +19,7 @@ export const Footer = () => {
             }
         };
 
-        fetchProviderData();
+        fetchProviderData();   
     }, []);
 
 
