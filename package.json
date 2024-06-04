@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --outDir docs",
+    "serve": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "install": "npm install react-router-dom && npm install node-fetch && npm install xml2js && npm i classnames && npm install sass && npm run dev "
@@ -17,7 +18,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
-    "sass": "^1.77.3",
+    "sass": "^1.77.4",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
